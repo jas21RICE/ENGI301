@@ -45,7 +45,7 @@ With this new layout in mind, we can look at making the device!
 
 Development Process:
 
-1. Live Playback
+Live Sound
 
 I began by implementing the 12 note keyboard, as that was the central part of this project. I borrowed code from a friend (https://www.hackster.io/nickericlester/ir-breakbeam-candy-dispenser-with-zelda-music-c76e65) to make a library of notes using the speakers I had gotten and to interact with the speakers to play notes. Once I had successfully set up the PWM pins on the PocketBeagle for the mini speakers and had successfully gotten them to play specified notes, I began wiring my 12 note keyboard:
 
