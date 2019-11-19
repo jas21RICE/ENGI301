@@ -1,5 +1,5 @@
-# project_01
-Repository for ENGI 301 Project 1
+# PocketBeagle_Synthesizer
+Repository for ENGI 301 Project 1 - PocketBeagle_Synthesizer
 
 Usage:
 To run the synthesizer program, navigate to the directory in which Project.py is located
