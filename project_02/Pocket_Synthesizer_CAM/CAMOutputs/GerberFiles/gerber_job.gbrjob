@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-12-18T20:51:15Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.53,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "ENGI301_synthesizer"
+        },
+        "Owner": "Josh Stelling <jas21@rice.edu>",
+        "Size": {
+            "X": 203.2,
+            "Y": 127
+        }
+    }
+}

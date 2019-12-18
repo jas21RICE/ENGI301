@@ -174,6 +174,19 @@
 <wire x1="203.2" y1="0" x2="203.2" y2="127" width="0.1524" layer="20"/>
 <wire x1="203.2" y1="127" x2="0" y2="127" width="0.1524" layer="20"/>
 <wire x1="0" y1="127" x2="0" y2="0" width="0.1524" layer="20"/>
+<text x="7.62" y="22.86" size="1.778" layer="21">JS</text>
+<text x="10.16" y="2.54" size="1.778" layer="21" font="vector">Pocket Synthesizer</text>
+<text x="170.18" y="2.54" size="1.778" layer="21" font="vector">Rev. 1-A</text>
+<text x="7.62" y="48.26" size="1.778" layer="21" font="vector">Timbre</text>
+<text x="33.02" y="67.31" size="1.778" layer="21" font="vector">Met
+Volume</text>
+<text x="61.595" y="61.595" size="1.778" layer="21" font="vector">Met
+Power</text>
+<text x="60.96" y="99.06" size="1.778" layer="21" font="vector">Tempo</text>
+<text x="96.52" y="71.755" size="1.778" layer="21" font="vector">Main Volume</text>
+<text x="159.385" y="69.215" size="1.778" layer="21" font="vector">Recording 
+Volume</text>
+<text x="182.88" y="57.15" size="1.778" layer="21" font="vector">Record</text>
 </plain>
 <libraries>
 <library name="ENGI301">
@@ -629,7 +642,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="33.02" y="52.07" size="1.27" layer="25"/>
 <attribute name="VALUE" x="33.02" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="ENGI301" package="R1210" value="" x="33.02" y="12.7" smashed="yes" rot="R90">
+<element name="R1" library="ENGI301" package="R1210" value="10k" x="33.02" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.369" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="35.941" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -641,7 +654,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="58.42" y="52.07" size="1.27" layer="25"/>
 <attribute name="VALUE" x="58.42" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="ENGI301" package="R1210" value="" x="58.42" y="12.7" smashed="yes" rot="R90">
+<element name="R2" library="ENGI301" package="R1210" value="10k" x="58.42" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.769" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="61.341" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -649,7 +662,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="71.12" y="31.75" size="1.27" layer="25"/>
 <attribute name="VALUE" x="71.12" y="17.78" size="1.27" layer="27"/>
 </element>
-<element name="R3" library="ENGI301" package="R1210" value="" x="83.82" y="12.7" smashed="yes" rot="R90">
+<element name="R3" library="ENGI301" package="R1210" value="10k" x="83.82" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.169" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="86.741" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -661,7 +674,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="109.22" y="52.07" size="1.27" layer="25"/>
 <attribute name="VALUE" x="109.22" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="R4" library="ENGI301" package="R1210" value="" x="109.22" y="12.7" smashed="yes" rot="R90">
+<element name="R4" library="ENGI301" package="R1210" value="10k" x="109.22" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.569" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="112.141" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -673,7 +686,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="134.62" y="52.07" size="1.27" layer="25"/>
 <attribute name="VALUE" x="134.62" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="ENGI301" package="R1210" value="" x="134.62" y="12.7" smashed="yes" rot="R90">
+<element name="R5" library="ENGI301" package="R1210" value="10k" x="134.62" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="132.969" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="137.541" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -685,7 +698,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="160.02" y="52.07" size="1.27" layer="25"/>
 <attribute name="VALUE" x="160.02" y="38.1" size="1.27" layer="27"/>
 </element>
-<element name="R6" library="ENGI301" package="R1210" value="" x="160.02" y="12.7" smashed="yes" rot="R90">
+<element name="R6" library="ENGI301" package="R1210" value="10k" x="160.02" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.369" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="162.941" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -693,7 +706,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="172.72" y="31.75" size="1.27" layer="25"/>
 <attribute name="VALUE" x="172.72" y="17.78" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="ENGI301" package="R1210" value="" x="185.42" y="12.7" smashed="yes" rot="R90">
+<element name="R7" library="ENGI301" package="R1210" value="10k" x="185.42" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="183.769" y="11.43" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="188.341" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -701,27 +714,27 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <attribute name="NAME" x="191.77" y="60.96" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="72.39" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="SW2" library="ENGI301" package="JS202011SCQN" value="SLIDE_SWITCH" x="66.04" y="66.04" smashed="yes">
-<attribute name="NAME" x="62.23" y="71.12" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="62.23" y="59.69" size="0.8128" layer="27"/>
+<element name="SW2" library="ENGI301" package="JS202011SCQN" value="SLIDE_SWITCH" x="66.04" y="73.66" smashed="yes">
+<attribute name="NAME" x="62.23" y="78.74" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="62.23" y="67.31" size="0.8128" layer="27"/>
 </element>
-<element name="R8" library="ENGI301" package="R1210" value="" x="170.18" y="55.88" smashed="yes">
+<element name="R8" library="ENGI301" package="R1210" value="10k" x="170.18" y="55.88" smashed="yes">
 <attribute name="NAME" x="168.91" y="57.531" size="1.27" layer="25"/>
 <attribute name="VALUE" x="168.91" y="52.959" size="1.27" layer="27"/>
 </element>
-<element name="R9" library="ENGI301" package="R1210" value="" x="144.78" y="55.88" smashed="yes">
+<element name="R9" library="ENGI301" package="R1210" value="10k" x="144.78" y="55.88" smashed="yes">
 <attribute name="NAME" x="143.51" y="57.531" size="1.27" layer="25"/>
 <attribute name="VALUE" x="143.51" y="52.959" size="1.27" layer="27"/>
 </element>
-<element name="R10" library="ENGI301" package="R1210" value="" x="119.38" y="55.88" smashed="yes">
+<element name="R10" library="ENGI301" package="R1210" value="10k" x="119.38" y="55.88" smashed="yes">
 <attribute name="NAME" x="118.11" y="57.531" size="1.27" layer="25"/>
 <attribute name="VALUE" x="118.11" y="52.959" size="1.27" layer="27"/>
 </element>
-<element name="R11" library="ENGI301" package="R1210" value="" x="68.58" y="55.88" smashed="yes">
+<element name="R11" library="ENGI301" package="R1210" value="10k" x="68.58" y="55.88" smashed="yes">
 <attribute name="NAME" x="67.31" y="57.531" size="1.27" layer="25"/>
 <attribute name="VALUE" x="67.31" y="52.959" size="1.27" layer="27"/>
 </element>
-<element name="R12" library="ENGI301" package="R1210" value="" x="43.18" y="55.88" smashed="yes">
+<element name="R12" library="ENGI301" package="R1210" value="10k" x="43.18" y="55.88" smashed="yes">
 <attribute name="NAME" x="41.91" y="57.531" size="1.27" layer="25"/>
 <attribute name="VALUE" x="41.91" y="52.959" size="1.27" layer="27"/>
 </element>
@@ -786,10 +799,11 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <via x="195.58" y="66.04" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <wire x1="190.46" y1="63.29" x2="193.21" y2="66.04" width="0.254" layer="1"/>
 <wire x1="193.21" y1="66.04" x2="195.58" y2="66.04" width="0.254" layer="1"/>
-<wire x1="68.54" y1="68.79" x2="68.54" y2="63.29" width="0.254" layer="1"/>
+<wire x1="68.54" y1="76.41" x2="68.54" y2="70.91" width="0.254" layer="1"/>
 <via x="76.2" y="66.04" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<wire x1="68.54" y1="63.29" x2="71.29" y2="66.04" width="0.254" layer="1"/>
-<wire x1="71.29" y1="66.04" x2="76.2" y2="66.04" width="0.254" layer="1"/>
+<wire x1="68.54" y1="70.91" x2="68.54" y2="68.37" width="0.254" layer="1"/>
+<wire x1="70.87" y1="66.04" x2="68.54" y2="68.37" width="0.254" layer="1"/>
+<wire x1="70.87" y1="66.04" x2="76.2" y2="66.04" width="0.254" layer="1"/>
 <contactref element="SP1" pad="-"/>
 <contactref element="SP2" pad="-"/>
 <contactref element="SP3" pad="-"/>
@@ -853,11 +867,6 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <wire x1="185.46" y1="63.29" x2="185.46" y2="68.79" width="0.254" layer="1"/>
 <wire x1="185.46" y1="63.29" x2="182.71" y2="66.04" width="0.254" layer="1"/>
 <wire x1="182.71" y1="66.04" x2="180.34" y2="66.04" width="0.254" layer="1"/>
-</signal>
-<signal name="VDD_5V">
-<contactref element="U1" pad="24"/>
-<contactref element="U1" pad="49"/>
-<wire x1="23.69" y1="85.37" x2="36.39" y2="108.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C" pad="1"/>
@@ -1012,9 +1021,9 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <wire x1="33.02" y1="71.12" x2="28.77" y2="75.37" width="0.254" layer="16"/>
 <wire x1="28.77" y1="75.37" x2="28.77" y2="82.83" width="0.254" layer="16"/>
 <wire x1="108.09" y1="35.56" x2="93.98" y2="35.56" width="0.254" layer="16"/>
-<wire x1="93.98" y1="35.56" x2="68.58" y2="60.96" width="0.254" layer="16"/>
-<wire x1="68.58" y1="60.96" x2="55.88" y2="60.96" width="0.254" layer="16"/>
-<wire x1="55.88" y1="60.96" x2="45.72" y2="71.12" width="0.254" layer="16"/>
+<wire x1="93.98" y1="35.56" x2="66.04" y2="63.5" width="0.254" layer="16"/>
+<wire x1="66.04" y1="63.5" x2="53.34" y2="63.5" width="0.254" layer="16"/>
+<wire x1="53.34" y1="63.5" x2="45.72" y2="71.12" width="0.254" layer="16"/>
 </signal>
 <signal name="N$15">
 <contactref element="A" pad="1"/>
@@ -1106,20 +1115,20 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <signal name="N$4">
 <contactref element="SW2" pad="4"/>
 <contactref element="SW2" pad="1"/>
-<wire x1="63.54" y1="68.79" x2="63.54" y2="63.29" width="0.254" layer="1"/>
+<wire x1="63.54" y1="76.41" x2="63.54" y2="70.91" width="0.254" layer="1"/>
 <contactref element="POT5" pad="S"/>
-<wire x1="63.54" y1="68.79" x2="45.55" y2="68.79" width="0.254" layer="1"/>
-<wire x1="45.55" y1="68.79" x2="38.1" y2="76.24" width="0.254" layer="1"/>
+<wire x1="63.54" y1="76.41" x2="38.27" y2="76.41" width="0.254" layer="1"/>
+<wire x1="38.1" y1="76.24" x2="38.27" y2="76.41" width="0.254" layer="1"/>
 </signal>
 <signal name="MET_SPEAK">
 <contactref element="SW2" pad="2"/>
 <contactref element="SW2" pad="5"/>
 <contactref element="U1" pad="39"/>
-<wire x1="66.04" y1="63.29" x2="66.04" y2="68.79" width="0.254" layer="1"/>
-<wire x1="66.04" y1="63.29" x2="65.9288125" y2="63.29" width="0.254" layer="1"/>
-<wire x1="65.9288125" y1="63.29" x2="64.2978125" y2="61.659" width="0.254" layer="1"/>
-<wire x1="64.2978125" y1="61.659" x2="27.241" y2="61.659" width="0.254" layer="1"/>
-<wire x1="27.241" y1="61.659" x2="6.35" y2="82.55" width="0.254" layer="1"/>
+<wire x1="66.04" y1="70.91" x2="66.04" y2="76.41" width="0.254" layer="1"/>
+<wire x1="66.04" y1="70.91" x2="66.04" y2="68.4811875" width="0.254" layer="1"/>
+<wire x1="66.04" y1="68.4811875" x2="64.2978125" y2="66.739" width="0.254" layer="1"/>
+<wire x1="64.2978125" y1="66.739" x2="22.161" y2="66.739" width="0.254" layer="1"/>
+<wire x1="22.161" y1="66.739" x2="6.35" y2="82.55" width="0.254" layer="1"/>
 <wire x1="6.35" y1="82.55" x2="6.35" y2="87.63" width="0.254" layer="1"/>
 <wire x1="6.35" y1="87.63" x2="7.62" y2="88.9" width="0.254" layer="1"/>
 <wire x1="7.62" y1="88.9" x2="10.16" y2="88.9" width="0.254" layer="1"/>
@@ -1142,8 +1151,7 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <contactref element="POT4" pad="CCW"/>
 <wire x1="3.175" y1="65.445" x2="10.2" y2="58.42" width="0.254" layer="1"/>
 <wire x1="3.175" y1="109.855" x2="3.175" y2="65.445" width="0.254" layer="1"/>
-<wire x1="48.26" y1="91.44" x2="63.5" y2="91.44" width="0.254" layer="1"/>
-<wire x1="63.5" y1="91.44" x2="63.54" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="91.44" x2="63.54" y2="91.44" width="0.254" layer="1"/>
 </signal>
 <signal name="AIN_VREFP">
 <contactref element="U1" pad="18"/>
@@ -1206,16 +1214,13 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <signal name="MAIN_SPEAK">
 <contactref element="U1" pad="37"/>
 <contactref element="POT1" pad="S"/>
-<wire x1="76.958425" y1="78.78" x2="101.6" y2="78.78" width="0.254" layer="1"/>
-<wire x1="68.790425" y1="70.612" x2="68.9392125" y2="70.7607875" width="0.254" layer="1"/>
-<wire x1="68.9392125" y1="70.7607875" x2="76.958425" y2="78.78" width="0.254" layer="1"/>
-<wire x1="68.9392125" y1="70.7607875" x2="46.0792125" y2="70.7607875" width="0.254" layer="1"/>
-<wire x1="46.0792125" y1="70.7607875" x2="39.37" y2="77.47" width="0.254" layer="1"/>
+<wire x1="51.558425" y1="78.78" x2="101.6" y2="78.78" width="0.254" layer="1"/>
+<wire x1="50.248425" y1="77.47" x2="51.558425" y2="78.78" width="0.254" layer="1"/>
+<wire x1="50.248425" y1="77.47" x2="14.73355" y2="77.47" width="0.254" layer="1"/>
 <wire x1="8.45" y1="84.44645" x2="8.45" y2="85.37" width="0.254" layer="1"/>
 <wire x1="9.593" y1="83.30345" x2="8.45" y2="84.44645" width="0.254" layer="1"/>
 <wire x1="14.73355" y1="77.47" x2="9.593" y2="82.61055" width="0.254" layer="1"/>
 <wire x1="9.593" y1="82.61055" x2="9.593" y2="83.30345" width="0.254" layer="1"/>
-<wire x1="39.37" y1="77.47" x2="14.73355" y2="77.47" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="POT1" pad="CW"/>
@@ -1263,6 +1268,11 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <wire x1="44.35" y1="48.22" x2="44.58" y2="48.45" width="0.254" layer="1"/>
 <wire x1="44.58" y1="48.45" x2="44.58" y2="55.88" width="0.254" layer="1"/>
 </signal>
+<signal name="VOUT">
+<contactref element="U1" pad="24"/>
+<contactref element="U1" pad="49"/>
+<wire x1="23.69" y1="85.37" x2="36.39" y2="108.23" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1271,6 +1281,15 @@ This DRC check is for 4-Layer Standard Capability boards. Use Layer 2 and 15 for
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,4f904f6e4d92b392"/>
+</errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

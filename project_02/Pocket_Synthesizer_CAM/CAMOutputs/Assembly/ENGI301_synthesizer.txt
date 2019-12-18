@@ -1,0 +1,11 @@
+Partlist exported from C:/Users/Josh/Documents/Classwork/Fall 2019/ENGI 301/Github/project_02/ENGI301_synthesizer.sch at 12/18/2019 2:51 PM
+
+Qty Value             Device            Package        Parts                                             Description                                    
+12  10k               R_R1210           R1210          R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12 RESISTOR, American symbol                      
+3   FIDUCIAL          FIDUCIAL          FIDUCIAL_40MIL FUD1, FUD3, FUD4                                                                                 
+4   MOUNTING_HOLE     MOUNTING_HOLE     MOUNTING_HOLE  MGT1, MGT2, MGT3, MGT4                            Chassis Mounting Hole w/GND connection ability 
+1   POCKETBEAGLE      POCKETBEAGLE      POCKETBEAGLE   U1                                                                                               
+12  PUSH_BUTTON       PUSH_BUTTON       BUTTON_12.5MM  A, AS, B, C, CS, D, DS, E, F, FS, G, GS                                                          
+5   ROT_POTENTIOMETER ROT_POTENTIOMETER POT-P102       POT1, POT2, POT3, POT4, POT5                                                                     
+2   SLIDE_SWITCH      SLIDE_SWITCH      JS202011SCQN   SW1, SW2                                          JS202011SCQN SPDT Slide Switch                 
+3   SPEAKER_30MM      SPEAKER_30MM      SPEAKER_30MM   SP1, SP2, SP3                                     Breadboard friendly buzzer                     

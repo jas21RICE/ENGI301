@@ -620,11 +620,6 @@ chip</description>
 <pin name="VDD_3P3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="4.064" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="VDD_5V">
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<pin name="VDD_5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="4.064" size="1.778" layer="96" align="center">&gt;VALUE</text>
-</symbol>
 <symbol name="MOUNTING_HOLE">
 <circle x="0" y="2.54" radius="2.54" width="0.254" layer="94"/>
 <pin name="P$1" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
@@ -845,18 +840,6 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VDD_5V" prefix="SUPPLY">
-<gates>
-<gate name="G$1" symbol="VDD_5V" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOUNTING_HOLE" prefix="MGT">
 <description>Chassis Mounting Hole w/GND connection ability</description>
 <gates>
@@ -1030,8 +1013,6 @@ Adafruit 1898</description>
 <part name="GND2" library="ENGI301" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="SUPPLY4" library="ENGI301" deviceset="VDD_3P3V" device=""/>
-<part name="SUPPLY3" library="ENGI301" deviceset="VDD_5V" device=""/>
-<part name="SUPPLY2" library="ENGI301" deviceset="VDD_5V" device=""/>
 <part name="MGT1" library="ENGI301" deviceset="MOUNTING_HOLE" device=""/>
 <part name="MGT2" library="ENGI301" deviceset="MOUNTING_HOLE" device=""/>
 <part name="MGT3" library="ENGI301" deviceset="MOUNTING_HOLE" device=""/>
@@ -1042,29 +1023,29 @@ Adafruit 1898</description>
 <part name="GND14" library="ENGI301" deviceset="GND" device=""/>
 <part name="C" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
 <part name="CS" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R1" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R1" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY5" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="D" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
 <part name="DS" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R2" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R2" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY6" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="E" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R3" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R3" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY7" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="F" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
 <part name="FS" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R4" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R4" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY8" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="G" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
 <part name="GS" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R5" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R5" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY9" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="A" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
 <part name="AS" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R6" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R6" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY10" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="B" library="ENGI301" deviceset="PUSH_BUTTON" device=""/>
-<part name="R7" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R7" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY11" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="SUPPLY12" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="SW1" library="ENGI301" deviceset="SLIDE_SWITCH" device=""/>
@@ -1073,15 +1054,15 @@ Adafruit 1898</description>
 <part name="GND4" library="ENGI301" deviceset="GND" device=""/>
 <part name="GND5" library="ENGI301" deviceset="GND" device=""/>
 <part name="GND6" library="ENGI301" deviceset="GND" device=""/>
-<part name="R8" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R8" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY13" library="ENGI301" deviceset="VDD_3P3V" device=""/>
-<part name="R9" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R9" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY14" library="ENGI301" deviceset="VDD_3P3V" device=""/>
-<part name="R10" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R10" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY15" library="ENGI301" deviceset="VDD_3P3V" device=""/>
-<part name="R11" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R11" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY16" library="ENGI301" deviceset="VDD_3P3V" device=""/>
-<part name="R12" library="ENGI301" deviceset="R_" device="R1210"/>
+<part name="R12" library="ENGI301" deviceset="R_" device="R1210" value="10k"/>
 <part name="SUPPLY17" library="ENGI301" deviceset="VDD_3P3V" device=""/>
 <part name="POT1" library="ENGI301" deviceset="ROT_POTENTIOMETER" device=""/>
 <part name="POT2" library="ENGI301" deviceset="ROT_POTENTIOMETER" device=""/>
@@ -1109,6 +1090,9 @@ Switch</text>
 <wire x1="142.24" y1="187.96" x2="142.24" y2="40.64" width="0.3048" layer="97"/>
 <wire x1="289.56" y1="114.3" x2="289.56" y2="187.96" width="0.3048" layer="97"/>
 <wire x1="142.24" y1="35.56" x2="378.46" y2="35.56" width="0.3048" layer="97"/>
+<text x="246.38" y="12.7" size="5.08" layer="97">Pocket Synthesizer</text>
+<text x="325.628" y="5.334" size="2.54" layer="97">1 of 1</text>
+<text x="313.182" y="20.32" size="2.54" layer="97">Josh Stelling</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -1130,12 +1114,6 @@ Switch</text>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="111.76" y="170.18" smashed="yes">
 <attribute name="VALUE" x="111.76" y="174.244" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY3" gate="G$1" x="99.06" y="170.18" smashed="yes">
-<attribute name="VALUE" x="99.06" y="174.244" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="33.02" y="170.18" smashed="yes">
-<attribute name="VALUE" x="33.02" y="174.244" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="MGT1" gate="G$1" x="119.38" y="20.32" smashed="yes">
 <attribute name="NAME" x="120.142" y="18.288" size="1.27" layer="95"/>
@@ -1180,7 +1158,7 @@ Switch</text>
 </instance>
 <instance part="R2" gate="G$1" x="81.28" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.74" y="233.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="76.2" y="233.68" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="78.74" y="228.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="81.28" y="241.3" smashed="yes">
 <attribute name="VALUE" x="81.28" y="245.364" size="1.778" layer="96" align="center"/>
@@ -1191,7 +1169,7 @@ Switch</text>
 </instance>
 <instance part="R3" gate="G$1" x="137.16" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.62" y="233.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="132.08" y="233.68" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="134.62" y="228.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="137.16" y="241.3" smashed="yes">
 <attribute name="VALUE" x="137.16" y="245.364" size="1.778" layer="96" align="center"/>
@@ -1221,7 +1199,7 @@ Switch</text>
 </instance>
 <instance part="R5" gate="G$1" x="231.14" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="228.6" y="233.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="226.06" y="233.68" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="228.6" y="228.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="231.14" y="241.3" smashed="yes">
 <attribute name="VALUE" x="231.14" y="245.364" size="1.778" layer="96" align="center"/>
@@ -1236,7 +1214,7 @@ Switch</text>
 </instance>
 <instance part="R6" gate="G$1" x="287.02" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="284.48" y="233.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="281.94" y="233.68" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="284.48" y="228.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="287.02" y="241.3" smashed="yes">
 <attribute name="VALUE" x="287.02" y="245.364" size="1.778" layer="96" align="center"/>
@@ -1247,7 +1225,7 @@ Switch</text>
 </instance>
 <instance part="R7" gate="G$1" x="342.9" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="340.36" y="233.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="337.82" y="233.68" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="340.36" y="228.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="342.9" y="241.3" smashed="yes">
 <attribute name="VALUE" x="342.9" y="245.364" size="1.778" layer="96" align="center"/>
@@ -1495,20 +1473,6 @@ Switch</text>
 <pinref part="SUPPLY17" gate="G$1" pin="VDD_3P3V"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="246.38" x2="45.72" y2="243.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VDD_5V" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VOUT@1"/>
-<pinref part="SUPPLY2" gate="G$1" pin="VDD_5V"/>
-<wire x1="40.64" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="162.56" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VOUT@2"/>
-<pinref part="SUPPLY3" gate="G$1" pin="VDD_5V"/>
-<wire x1="91.44" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="162.56" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2042,22 +2006,19 @@ Switch</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,48.26,157.48,U1,VIN,,,,"/>
-<approved hash="202,1,48.26,116.84,U1,AIN.VREF-,,,,"/>
-<approved hash="202,1,48.26,111.76,U1,AIN1(1.8V),,,,"/>
-<approved hash="202,1,48.26,109.22,U1,AIN2(1.8V),,,,"/>
-<approved hash="202,1,48.26,106.68,U1,AIN3(1.8V),,,,"/>
-<approved hash="202,1,48.26,104.14,U1,AIN4(1.8V),,,,"/>
-<approved hash="104,1,99.06,228.6,U1,3.3V,VDD_3P3V,,,"/>
-<approved hash="104,1,48.26,231.14,U1,VOUT,VDD_5V,,,"/>
-<approved hash="104,1,99.06,231.14,U1,VOUT,VDD_5V,,,"/>
-<approved hash="104,1,48.26,228.6,U1,3.3V,VDD_3P3V,,,"/>
-<approved hash="202,1,48.26,162.56,U1,PWR.BTN,,,,"/>
-<approved hash="204,1,48.26,152.4,U1,BAT.VIN,,,,"/>
-<approved hash="202,1,48.26,149.86,U1,BAT.TEMP,,,,"/>
-<approved hash="202,1,48.26,167.64,U1,RESET#,,,,"/>
-<approved hash="202,1,48.26,101.6,U1,AIN7(1.8V),,,,"/>
-<approved hash="104,1,259.08,223.52,U2,VCC,VDD_5V,,,"/>
+<approved hash="204,1,40.64,88.9,U1,VIN,,,,"/>
+<approved hash="202,1,40.64,40.64,U1,AIN2(1.8V),,,,"/>
+<approved hash="202,1,40.64,38.1,U1,AIN3(1.8V),,,,"/>
+<approved hash="202,1,40.64,35.56,U1,AIN4(1.8V),,,,"/>
+<approved hash="104,1,91.44,160.02,U1,3.3V,VDD_3P3V,,,"/>
+<approved hash="204,1,40.64,162.56,U1,VOUT,,,,"/>
+<approved hash="204,1,91.44,162.56,U1,VOUT,,,,"/>
+<approved hash="104,1,40.64,160.02,U1,3.3V,VDD_3P3V,,,"/>
+<approved hash="202,1,40.64,93.98,U1,PWR.BTN,,,,"/>
+<approved hash="204,1,40.64,83.82,U1,BAT.VIN,,,,"/>
+<approved hash="202,1,40.64,81.28,U1,BAT.TEMP,,,,"/>
+<approved hash="202,1,40.64,99.06,U1,RESET#,,,,"/>
+<approved hash="202,1,40.64,33.02,U1,AIN7(1.8V),,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 </errors>
 </schematic>
